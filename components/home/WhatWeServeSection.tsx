@@ -28,7 +28,7 @@ const servicesData = [
 	{
 		service: 'Hardware Maintainance',
 		description:
-			'Techfix Solutions offers superior hardware maintenance, ensuring peak performance through proactive monitoring, rapid issue resolution, and customized solutions for hardware reliability and efficiency.',
+			'Techfix Solutions offers superior hardware maintenance, ensuring peak performance through proactive monitoring, rapid issue resolutions, and customized solutions for hardware reliability and efficiency.',
 		image: '/assets/hardware-maintainance.jpg',
 	},
 	{
