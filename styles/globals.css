@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Capian";
+  src: url("/fonts/capian/Capian-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Capian";
+  src: url("/fonts/capian/Capian-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NeueMachina";
+  src: url("/fonts/neue_machine/NeueMachina-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+ 
+@layer base {
+  :root {
+    --header-height: 144px;
+    --primary-50: #e6f9fa;
+    --primary-100: #b0edef;
+    --primary-200: #8ae4e8;
+    --primary-300: #54d7dd;
+    --primary-400: #33d0d6;
+    --primary-500: #00c4cc;
+    --primary-600: #00b2ba;
+    --primary-700: #008b91;
+    --primary-800: #006c70;
+    --primary-900: #005256;
+
+    --secondary-50: #e6f0fa;
+    --secondary-100: #b0d0ef;
+    --secondary-200: #8ab9e8;
+    --secondary-300: #5498dd;
+    --secondary-400: #3385d6;
+    --secondary-500: #0066cc;
+    --secondary-600: #005dba;
+    --secondary-700: #004891;
+    --secondary-800: #003870;
+    --secondary-900: #002b56;
+
+    --neutral-0: #ffffff;
+    --neutral-10: #fafbfb;
+    --neutral-20: #F5F6F8;
+    --neutral-30: #ebeef1;
+    --neutral-40: #dee3e8;
+    --neutral-50: #bfc9d3;
+    --neutral-60: #b0bcc8;
+    --neutral-70: #a3b1bf;
+    --neutral-80: #94a4b4;
+    --neutral-90: #8597aa;
+    --neutral-100: #758a9f;
+    --neutral-200: #667d94;
+    --neutral-300: #57708a;
+    --neutral-400: #4a6581;
+    --neutral-500: #3b5876;
+    --neutral-600: #2e4d6d;
+    --neutral-700: #1c3e61;
+    --neutral-800: #0d3156;
+    --neutral-900: #00264d;
+
+
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+ 
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+ 
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+ 
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+ 
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+ 
+    --radius: 0.5rem;
+
+    --heading-font: "Capian";
+    --heading-font-alt: "NeueMachina";
+  }
+ 
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+ 
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+ 
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+ 
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+ 
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+ 
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+ 
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+ 
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+  }
+}
+
+@layer base {
+  ::-webkit-scrollbar {
+      width: 6px;
+  }
+    
+  ::-webkit-scrollbar-thumb {
+      @apply bg-primary-200 hover:bg-primary-700 rounded-sm;
+  }
+  html{
+overflow-x: hidden
+  }
+  body {
+    @apply bg-background text-neutral-900 overflow-x-hidden w-full font-sans;
+  }
+  h1, h2, h3, h4, h5, h6{
+    @apply font-heading;
+  }
+}
+
+@layer components{
+  .techy-clip-sm{
+    overflow: hidden;
+    clip-path: polygon(95% 0, 100% 15%, 100% 100%, 20% 100%, 0 80%, 0% 0%);
+  }
+  .submit-ticket-techy-clip{
+    overflow: hidden;
+    clip-path: polygon(95% 0, 100% 15%, 100% 100%, 10% 100%, 0 80%, 0% 0%);
+  }
+  .techy-clip{
+    clip-path: polygon(95% 0, 100% 5%, 100% 100%, 5% 100%, 0 95%, 0% 0%);
+  }
+  .techy-clip-brand{
+    clip-path: polygon(98% 0, 100% 25%, 100% 100%, 2% 100%, 0 70%, 0% 0%);
+  }
+  .header-transparent {
+    background-color: rgb(0 91 105 / 75%);
+    @apply backdrop-blur-lg;
+  }
+  .whatWeServeProgressContainer{
+    clip-path: polygon(98% 0%, 100% 15%, 100% 100%, 3% 100%, 0% 70%, 0% 0%);
+  }
+  .whatWeServeProgressContainer .item{
+    clip-path: polygon(95% 0, 100% 20%, 100% 100%, 10% 100%, 0 70%, 0% 0%);
+    overflow: hidden;
+  }
+  .reviewsSwiper{
+    overflow: initial !important;
+    --swiper-pagination-color: rgba(255, 255, 255, 1);
+  --swiper-pagination-left: auto;
+  --swiper-pagination-right: 8px;
+  --swiper-pagination-bottom: 8px;
+  --swiper-pagination-top: 110%;
+  --swiper-pagination-bullet-size: 10px;
+  --swiper-pagination-bullet-width: 10px;
+  --swiper-pagination-bullet-height: 10px;
+  --swiper-pagination-bullet-inactive-color: rgba(51, 133, 214, 1);
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+  }
+  .reviewsSwiper .swiper-pagination{
+    height: 10px;
+  }
+}
+  /**/
+  /* .whatWeServeSwiper.swiper-3d .swiper-slide-shadow{ */
+  /*   background: rgba(255, 255, 255); */
+  /*   opacity: 0.5 !important; */
+  /* } */
