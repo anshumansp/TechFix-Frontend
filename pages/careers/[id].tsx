@@ -48,6 +48,7 @@ const CareerDetailPage = ({ career }: InferGetServerSidePropsType<typeof getServ
 						<div className="mt-7">
 							<p className="text-center text-sm font-normal text-neutral-500">Share this Job Opening</p>
 							<div className="mt-4 flex items-center justify-center gap-2">
+								{/* Facebook share */}
 								<Link
 									href={
 										'https://www.facebook.com/sharer/sharer.php?u=https://techfixsolutions.com.au/careers/' + career.id
@@ -56,7 +57,8 @@ const CareerDetailPage = ({ career }: InferGetServerSidePropsType<typeof getServ
 								>
 									<Icons.Facebook className="text-neutral-90" />
 								</Link>
-								{/* twitter share */}
+
+								{/* Twitter share */}
 								<Link
 									href={
 										'https://twitter.com/intent/tweet?text=Check out this job opening at Techfix Solutions&url=https://techfixsolutions.com.au/careers/' +
@@ -66,6 +68,7 @@ const CareerDetailPage = ({ career }: InferGetServerSidePropsType<typeof getServ
 								>
 									<Icons.Twitter className="text-neutral-90" />
 								</Link>
+
 								{/* LinkedIn share */}
 								<Link
 									href={

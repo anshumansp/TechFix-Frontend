@@ -211,7 +211,6 @@ const Icons = {
 			/>
 		</svg>
 	),
-
 	Paid: (props: IconProps) => (
 		<svg width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 			<path

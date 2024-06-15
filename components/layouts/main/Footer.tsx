@@ -72,9 +72,23 @@ const Footer = () => {
 						</Link>
 					</p>
 					<div className="flex gap-8">
-						<Link href={'#'}>LinkedIn</Link>
-						<Link href={'#'}>Instagram</Link>
-						<Link href={'#'}>WhatsApp</Link>
+						<Link href={'https://www.linkedin.com/company/techfix-solutions/'} legacyBehavior>
+							<a target="_blank" rel="noopener noreferrer">
+								LinkedIn
+							</a>
+						</Link>
+
+						<Link href={'https://www.facebook.com/people/TechFix-Solutions/61560025661424/'} legacyBehavior>
+							<a target="_blank" rel="noopener noreferrer">
+								Facebook
+							</a>
+						</Link>
+
+						<Link href={'https://www.facebook.com/people/TechFix-Solutions/61560025661424/'} legacyBehavior>
+							<a target="_blank" rel="noopener noreferrer">
+								Whatsapp
+							</a>
+						</Link>
 					</div>
 					{/* <Link href={'$'} className="font-light"> */}
 					{/* 	Design: Digital Ghumti */}
