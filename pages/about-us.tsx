@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Seo from '@/components/common/Seo';
 import { aboutUsContent, slideImages, stats, teamImage } from '@/data/about-us';
 import usePageConfiguration from '@/hooks/usePageConfiguration';
-import { cn, getMediaUrl } from '@/lib/utils';
+import { cn } from '@/lib/utils';
 
 const AboutUsPage = () => {
 	const { setNavTitle } = usePageConfiguration();
@@ -98,7 +98,7 @@ const AboutUsPage = () => {
 								className="translate-y-3 opacity-0"
 							>
 								<div className="relative mb-4 h-60 w-full md:mb-7">
-									<Image src={getMediaUrl(content.imageUrl)} alt={content.title} quality={100} fill />
+									<Image src={content.imageUrl} alt={content.title} quality={100} fill />
 								</div>
 								<h2 className="text-secondary-500 font-heading text-xl font-bold md:text-2xl">{content.title}</h2>
 								<p className="mt-4 text-sm font-normal text-neutral-500 md:mt-7">{content.description}</p>

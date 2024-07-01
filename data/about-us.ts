@@ -2,38 +2,38 @@ export const aboutUsContent = [
 	{
 		title: 'Expertise',
 		description:
-			'TECHFIX may be chosen if they have a reputation for expertise in the specific technology or area you need assistance with. They might have a team of skilled professionals or specialists who can handle various tech-related problems.',
-		imageUrl: 'd26c6cf8-0e31-44b5-bf0f-7e9f03004850-Vector 2.png',
+			'TechFix Solutions may be chosen for their reputation in specific technology areas or for their team of skilled professionals and specialists who can handle various tech-related problems',
+		imageUrl: '/assets/about-us/expertise.jpg',
 	},
 	{
 		title: 'Range of Services',
 		description:
-			'TECHFIX may be chosen if they have a reputation for expertise in the specific technology or area you need assistance with. They might have a team of skilled professionals or specialists who can handle various tech-related problems.',
-		imageUrl: 'd26c6cf8-0e31-44b5-bf0f-7e9f03004850-Vector 2.png',
+			'TechFix Solutions offers a comprehensive range of services, leveraging their expertise in specific technology areas to provide solutions for a variety of tech-related problems.',
+		imageUrl: '/assets/about-us/range-of-services.jpg',
 	},
 	{
 		title: 'Reliability',
 		description:
-			'TECHFIX may be chosen if they have a reputation for expertise in the specific technology or area you need assistance with. They might have a team of skilled professionals or specialists who can handle various tech-related problems.',
-		imageUrl: 'd26c6cf8-0e31-44b5-bf0f-7e9f03004850-Vector 2.png',
+			'TechFix Solutions is known for their reliability, consistently demonstrating expertise in handling a wide range of tech-related problems with their team of skilled professionals and specialists.',
+		imageUrl: '/assets/about-us/reliable.jpg',
 	},
 	{
 		title: 'Cost-effectiveness',
 		description:
-			'TECHFIX may be chosen if they have a reputation for expertise in the specific technology or area you need assistance with. They might have a team of skilled professionals or specialists who can handle various tech-related problems.',
-		imageUrl: 'd26c6cf8-0e31-44b5-bf0f-7e9f03004850-Vector 2.png',
+			'TechFix Solutions provides cost-effective solutions, utilizing their expertise in specific technology areas and a team of skilled professionals to address various tech-related problem.',
+		imageUrl: '/assets/about-us/cost-effectiveness.jpg',
 	},
 	{
 		title: 'Customer Support',
 		description:
-			'TECHFIX may be chosen if they have a reputation for expertise in the specific technology or area you need assistance with. They might have a team of skilled professionals or specialists who can handle various tech-related problems.',
-		imageUrl: 'd26c6cf8-0e31-44b5-bf0f-7e9f03004850-Vector 2.png',
+			'TechFix Solutions is chosen for their excellent customer support, backed by their reputation for expertise in specific technology areas and a team of skilled professionals who can handle various tech-related problems.',
+		imageUrl: '/assets/about-us/customer-service.jpg',
 	},
 	{
 		title: 'Reputation',
 		description:
-			'TECHFIX may be chosen if they have a reputation for expertise in the specific technology or area you need assistance with. They might have a team of skilled professionals or specialists who can handle various tech-related problems.',
-		imageUrl: 'd26c6cf8-0e31-44b5-bf0f-7e9f03004850-Vector 2.png',
+			'TechFix Solutions has built a strong reputation for their expertise in specific technology areas, supported by a team of skilled professionals and specialists capable of handling a wide range of tech-related problems.',
+		imageUrl: '/assets/about-us/tech-repo.jpg',
 	},
 ];
 
